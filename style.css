@@ -1,0 +1,78 @@
+body{
+    background-image: url(bg.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    overflow:hidden ;
+}
+#b1{
+   
+    width: 100px;
+    bottom: 0%;  
+    position: absolute;
+    animation-name: bi1;
+    animation-duration: 6s;
+    transform: rotate(180deg);
+    transform: scaleX(-1);
+}
+@keyframes bi1 {
+    10%{ left: 20%; bottom: 50%;}
+    30%{ left: 30%; bottom: 50%;}
+    50%{ left: 40%; bottom: 70%;}
+    70%{ left: 60%; bottom: 30%;}
+    100%{ left: 100%; bottom:100%;}  
+}
+#score, #bullet{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+}
+#bullet{
+    position: absolute;
+    left: 0;
+}
+#b2{
+    width: 200px;
+    bottom: 0%;  
+    position: absolute;
+    animation-name: bi2;
+    animation-duration: 16s;
+}
+@keyframes bi2 {
+    10%{ left: 40%; bottom: 50%;}
+    30%{ left: 30%; bottom: 50%;}
+    20%{ right: 10%; bottom: 40%;}
+    75%{ left: 50%; bottom: 30%;}
+    100%{ left: 100%; bottom:100%;}
+}
+#b3{
+    width: 100px;
+    bottom: 0%;  
+    position: absolute;
+    animation-name: bi3;
+    animation-duration: 13s;
+}
+@keyframes bi3 {
+    10%{ left: 20%; bottom: 20%;}
+    30%{ right:10%; bottom: 50%;}
+    50%{ top: 40%; bottom: 70%;}
+    70%{ left: 60%; TOP: 30%;}
+    100%{ left: 100%; bottom:100%;}
+    }
+#b4{
+    width: 200px;
+    bottom: 0%;  
+    position: absolute;
+    animation-name: bi4;
+    animation-duration: 10s;
+}
+@keyframes bi4{
+    50%{ LEFT: 20%; bottom: 50%;}
+    30%{ left: 30%; bottom: 50%;}
+    30%{ left: 40%; bottom: 70%;}
+    70%{ left: 60%; bottom: 30%;}
+    100%{ left: 100%; bottom:100%;}
+}
